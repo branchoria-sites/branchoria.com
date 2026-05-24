@@ -1,44 +1,59 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light" data-color-mode="automatic" data-appearance-color-default="automatic">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Affiliate Disclosure | Branchoria</title>
   <meta name="description" content="Affiliate and advertising disclosure for Branchoria.com and related Branchoria properties.">
+  <script>(function(){var r=document.documentElement,m="automatic";try{m=localStorage.getItem("phoenix-color-mode")||"automatic"}catch(e){}var d=false;try{d=matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches}catch(e){}r.setAttribute("data-color-mode",m);r.setAttribute("data-theme",m==="dark"||(m==="automatic"&&d)?"dark":"light")})();</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/theme-toggle.js" defer></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-67VRCP5C49"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-67VRCP5C49");</script>
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="/">Branchoria</a>
-    <nav class="nav" aria-label="Primary navigation">
-      <a href="/privacy-policy/">Privacy</a>
-      <a href="/terms/">Terms</a>
-      <a href="/contact/">Contact</a>
-      <a href="/disclosure/">Disclosure</a>
-    </nav>
+    <div class="container header-inner">
+      <a class="brand-block" href="/" aria-label="Branchoria home"><span class="site-title"><span class="brand-mark" aria-hidden="true"></span>Branchoria</span><span class="site-tagline">Generated knowledge sites</span></a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="nav-pill" href="/privacy-policy/">Privacy</a><a class="nav-pill" href="/terms/">Terms</a><a class="nav-pill" href="/contact/">Contact</a><a class="nav-pill" href="/disclosure/">Disclosure</a>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch color mode" title="Switch color mode"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v2"></path><path d="M12 19v2"></path><path d="m5.64 5.64 1.42 1.42"></path><path d="m16.94 16.94 1.42 1.42"></path><path d="M3 12h2"></path><path d="M19 12h2"></path><path d="m5.64 18.36 1.42-1.42"></path><path d="m16.94 7.06 1.42-1.42"></path><circle cx="12" cy="12" r="4"></circle></svg></button>
+      </nav>
+    </div>
   </header>
 
-  <main class="page">
-    <p class="eyebrow">Disclosure stub</p>
-    <h1>Affiliate Disclosure</h1>
-    <p class="lede">Some Branchoria pages may contain affiliate links, advertising links, or other commercial references.</p>
-    <section>
-      <h2>Affiliate links</h2>
-      <p>Stub: explain that Branchoria may earn a commission when visitors buy through qualifying links, at no additional cost to the visitor.</p>
-    </section>
-    <section>
-      <h2>Editorial independence</h2>
-      <p>Stub: describe how commercial relationships are handled and how editorial content is created or reviewed.</p>
-    </section>
-    <section>
-      <h2>Page-level notices</h2>
-      <p>Stub: note that individual pages or commerce blocks may include short disclosures near relevant links.</p>
-    </section>
+  <main class="page-content">
+    <div class="container article-shell">
+      <header class="article-hero">
+        <p class="eyebrow">Disclosure</p>
+        <h1>Affiliate Disclosure</h1>
+        <p class="lede">Some Branchoria pages may contain affiliate links, advertising links, or other commercial references.</p>
+      </header>
+      <div class="content-panel">
+        <section class="article-section">
+          <h2>Affiliate links</h2>
+          <p>Branchoria may earn a commission when visitors click qualifying links and make a purchase. This does not add extra cost for the visitor.</p>
+        </section>
+        <section class="article-section">
+          <h2>Editorial independence</h2>
+          <p>Commercial relationships may influence which merchants or offers are available to include, but pages should still aim to be useful, relevant, and clear about commercial links.</p>
+        </section>
+        <section class="article-section">
+          <h2>Page-level notices</h2>
+          <p>Individual pages, comparison blocks, or product sections may include short disclosures near relevant links. Those notices are intended to make commercial links easy to recognise in context.</p>
+        </section>
+      </div>
+    </div>
   </main>
 
   <footer class="site-footer">
-    <p>&copy; 2026 Branchoria. All rights reserved.</p>
-    <p><a href="/privacy-policy/">Privacy Policy</a> &middot; <a href="/terms/">Terms</a> &middot; <a href="/contact/">Contact</a> &middot; <a href="/disclosure/">Affiliate Disclosure</a></p>
+    <div class="container footer-inner">
+      <p>&copy; 2026 Branchoria. All rights reserved.</p>
+      <nav class="footer-links" aria-label="Footer navigation"><a href="/privacy-policy/">Privacy Policy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a><a href="/disclosure/">Affiliate Disclosure</a></nav>
+    </div>
   </footer>
 </body>
 </html>
