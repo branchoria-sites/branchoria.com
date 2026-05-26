@@ -10,4 +10,4 @@ Routes included:
 - `/contact/`
 - `/disclosure/`
 
-The policy pages are intentionally lightweight placeholders. The generated subdomain footers can link here while the detailed legal, contact, and affiliate disclosure content is drafted.
+The generated subdomain footers link to the hub policy pages, including the affiliate and AI-assisted content disclosure.
