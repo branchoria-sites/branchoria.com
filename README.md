@@ -35,3 +35,10 @@ The queue worker can perform the same local shared-registry upsert and directory
 render after successful jobs when `PHX_QUEUE_HUB_AUTO_REFRESH_ENABLED=1` and the
 individual row explicitly supplies `hub_approved=true` and public card copy.
 This remains a source refresh only; publishing the hub is a separate operation.
+
+For a local visual review of the proposed inventory, run
+`scripts/build_network_hub_preview.py` from the Phoenix repository. It writes
+only to `analysis_artifacts/hub_preview` and uses the builder's explicit
+candidate-preview behavior. Candidate mode must not be used to produce a
+published hub: candidate rows remain unapproved and are visibly labelled in the
+preview.
