@@ -1,0 +1,59 @@
+{
+  "schema_version": 2,
+  "sites": [
+    {
+      "id": "ufo-crashes",
+      "network": "branchoria",
+      "lifecycle": "active",
+      "deployment_repository": "",
+      "title": "UFO Crashes",
+      "url": "https://ufo-crashes.branchoria.com/",
+      "description": "Practical guides on UFO Crashes, organized for fast browsing and comparison.",
+      "category": "Science & Technology",
+      "subcategory": "UFO and UAP research",
+      "tags": ["ufo", "crashes", "research"],
+      "image_url": "",
+      "page_count": 0,
+      "status": "published",
+      "approved": true,
+      "featured": false,
+      "order": 100
+    },
+    {
+      "id": "ufo-global",
+      "network": "branchoria",
+      "lifecycle": "active",
+      "deployment_repository": "",
+      "title": "UFOs and UAP by Country",
+      "url": "https://ufo-global.branchoria.com/",
+      "description": "Country-by-country guides to UFO and UAP reports, records, and explanations.",
+      "category": "Science & Technology",
+      "subcategory": "UFO and UAP research",
+      "tags": ["ufo", "uap", "country"],
+      "image_url": "",
+      "page_count": 0,
+      "status": "published",
+      "approved": true,
+      "featured": false,
+      "order": 101
+    },
+    {
+      "id": "ufo-usa",
+      "network": "isaackoi",
+      "lifecycle": "active",
+      "deployment_repository": "",
+      "title": "UFOs and UAP by State",
+      "url": "https://ufo-usa.isaackoi.com/",
+      "description": "State-by-state guides to UFO and UAP reports, records, and explanations across the United States.",
+      "category": "Science & Technology",
+      "subcategory": "UFO and UAP research",
+      "tags": ["ufo", "uap", "usa"],
+      "image_url": "",
+      "page_count": 0,
+      "status": "published",
+      "approved": true,
+      "featured": false,
+      "order": 102
+    }
+  ]
+}
