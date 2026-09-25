@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Hub sitemap index: one entry per live, probe-verified property sitemap.
+     Generated from reports/2026-09-25-c4-estate-live-homepage-recheck/
+     estate-sitemap-lastmod-recheck-20260925.json (25/25 fetched HTTP 200).
+     lastmod omitted until the #2860 lastmod-emission lane lands, since the
+     property sitemaps currently carry zero <lastmod> entries -->
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://affiliate-engines.branchoria.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://ai-bloom.branchoria.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://ai-doom.branchoria.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://arnold-sighting.branchoria.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://cryptid-usa.branchoria.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://drake.branchoria.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://enhypen.branchoria.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://haunted-uk.branchoria.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://hoax-files.branchoria.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://lego-antifragility.branchoria.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://music.branchoria.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://mythcraft.branchoria.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://panic-files.branchoria.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://roswell.branchoria.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://ufo-archives.branchoria.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://ufo-australia.isaackoi.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://ufo-canada.branchoria.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://ufo-case-ai.branchoria.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://ufo-collection.branchoria.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://ufo-crashes.branchoria.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://ufo-crashes.isaackoi.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://ufo-global.branchoria.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://ufo-noises.branchoria.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://ufo-prophecy.branchoria.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://ufo-usa.isaackoi.com/sitemap.xml</loc>
+  </sitemap>
+</sitemapindex>
