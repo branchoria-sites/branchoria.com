@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://branchoria.com/sitemap.xml
+Sitemap: https://branchoria.com/sitemap_index.xml
