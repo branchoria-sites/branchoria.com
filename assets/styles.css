@@ -664,3 +664,24 @@ h3 {
     white-space: normal;
   }
 }
+
+/* Reduced-motion guard (estate-standard pattern, PM scaffold main.css):
+   branchoria.com was the only property of 96 classed motion_reduced_unsupported
+   by the estate reduced-motion census (2026-09-30, workbench #4754/#4439) —
+   its transition/animation declarations shipped with no prefers-reduced-motion
+   fallback. Mirrors the scaffold's reduce block verbatim; CSS-only, no
+   content or JavaScript changes. */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
